@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app-header {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: #131A28;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.header-text{
+  color: white;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.jc-center{
+  justify-content: center;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 64px;
+  text-align: center;
+  color: #1CDBF5;
+  font-weight: bolder;
+  padding: 10px;
+}
+.b-bottom-right {
+  border-right: 15px solid #1CDBF5;
+  border-bottom: 15px solid #1CDBF5;
+}
+.b-bottom {
+  border-bottom: 15px solid #1CDBF5;
+}
+.b-right{
+  border-right: 15px solid #1CDBF5;
+}
+.btn{
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: 600;
+  background-color: #1CDBF5;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.red {
+  color: rgb(117, 252, 7);
+}
